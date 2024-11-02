@@ -1,0 +1,56 @@
+/* Write your CSS code here */
+* {
+  font-family: 'Roboto';
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: transparent;
+  padding-top: 24px;
+  padding: 16px;
+}
+
+.navbar-content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.navbar-text {
+  color: #12022f;
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.navbar-text:hover
+{
+  color:#12022f;
+  text-decoration: none;
+}
+
+.wave-logo {
+  width: 32px;
+  height: 32px;
+  align-self: flex-start;
+  margin-top: 5px;
+}
+
+/* .wave-text {
+  margin-bottom: 24px;
+} */
